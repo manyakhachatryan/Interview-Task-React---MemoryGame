@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.textTitle {
+  text-align: center;
+}
+
+.cardGrid {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.button {
+  background: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #fff;
+  padding: 4px 8px;
+  color: #fff
+}

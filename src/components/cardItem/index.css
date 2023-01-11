@@ -1,0 +1,8 @@
+.cardItem{
+    position: relative
+}
+
+.cardItem img{
+    border: 2px solid #fff;
+    width: 130px;
+}
